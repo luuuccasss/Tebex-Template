@@ -55,5 +55,8 @@ Sert sur `http://localhost:8080` (override via `SERVER_PORT`).
 - Catégories custom : `config.categories` (mapping label → tebexId)
 - Style : `assets/css/style.css`
 
+## Contact
+Discord : [https://discord.gg/yETGQk9YMQ](https://discord.gg/yETGQk9YMQ)
+
 ## Licence
 MIT
