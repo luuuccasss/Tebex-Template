@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Ressources FiveM — développement premium." />
+<title>NORTH / STUDIO — FiveM Ressources</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="nav">
+  <div class="wrap nav__row">
+    <a href="#" class="mark">
+      <span class="mark__num">01</span>
+      <span class="mark__name"><span data-brand-left>NORTH</span><span class="mark__slash" data-brand-slash>/</span><span data-brand-right>STUDIO</span></span>
+    </a>
+    <nav class="nav__links">
+      <a href="#catalogue"><span>02</span>Catalogue</a>
+      <a href="#work"><span>03</span>Méthode</a>
+      <a href="#faq"><span>04</span>FAQ</a>
+    </nav>
+    <a href="#" class="nav__cta" data-link-discord>Discord<span class="arrow">→</span></a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero__meta">
+      <span data-brand-version>[ v.2026 ]</span>
+      <span class="dot"></span>
+      <span>Framework · QBCore / ESX / Standalone</span>
+      <span class="dot"></span>
+      <span data-brand-location>Basé à Lyon, FR</span>
+    </div>
+
+    <h1 class="hero__title">
+      Ressources FiveM<br />
+      pour serveurs qui<br />
+      <em>refusent le compromis.</em>
+    </h1>
+
+    <div class="hero__grid">
+      <p class="hero__lead">
+        Studio de développement dédié à l'écosystème FiveM. Nous livrons du code
+        propre, mesuré et documenté — pensé pour tenir en production, pas pour
+        remplir une démo.
+      </p>
+      <div class="hero__side">
+        <a href="#catalogue" class="btn">Voir le catalogue<span class="arrow">→</span></a>
+        <div class="hero__stats">
+          <div>
+            <span class="hero__stats-k">Ressources</span>
+            <span class="hero__stats-v" data-stat-resources>42</span>
+          </div>
+          <div>
+            <span class="hero__stats-k">Serveurs actifs</span>
+            <span class="hero__stats-v" data-stat-servers>2 180</span>
+          </div>
+          <div>
+            <span class="hero__stats-k">Idle moyen</span>
+            <span class="hero__stats-v"><span data-stat-idle-v>0.02</span><small data-stat-idle-u>ms</small></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>QBCORE</span><span>·</span>
+      <span>ESX LEGACY</span><span>·</span>
+      <span>OX_LIB</span><span>·</span>
+      <span>STANDALONE</span><span>·</span>
+      <span>OPTIMISÉ</span><span>·</span>
+      <span>SUPPORT FR</span><span>·</span>
+      <span>UPDATES À VIE</span><span>·</span>
+      <span>QBCORE</span><span>·</span>
+      <span>ESX LEGACY</span><span>·</span>
+      <span>OX_LIB</span><span>·</span>
+      <span>STANDALONE</span><span>·</span>
+      <span>OPTIMISÉ</span><span>·</span>
+      <span>SUPPORT FR</span><span>·</span>
+      <span>UPDATES À VIE</span><span>·</span>
+    </div>
+  </div>
+</section>
+
+<section id="catalogue" class="section">
+  <div class="wrap">
+    <div class="section__head">
+      <span class="section__num">/ 02</span>
+      <h2>Catalogue<br /><em>en vente.</em></h2>
+      <p class="section__desc">
+        Chaque ressource est vendue via Tebex. Licence liée automatiquement à
+        l'IP serveur, mises à jour incluses.
+      </p>
+    </div>
+
+    <div class="filters" id="filters"></div>
+
+    <div class="catalog" id="scriptsGrid">
+      <div class="empty">Chargement du catalogue…</div>
+    </div>
+  </div>
+</section>
+
+<section id="work" class="section section--alt">
+  <div class="wrap">
+    <div class="section__head">
+      <span class="section__num">/ 03</span>
+      <h2>Méthode<br /><em>de travail.</em></h2>
+    </div>
+
+    <div class="method">
+      <article class="method__item">
+        <span class="method__num">01</span>
+        <h3>Écrit à la main</h3>
+        <p>Aucun boilerplate collé, aucun code généré sans relecture. Chaque ressource passe par un audit interne avant publication.</p>
+      </article>
+      <article class="method__item">
+        <span class="method__num">02</span>
+        <h3>Mesuré, pas ressenti</h3>
+        <p>Perf profilée avec resmon. Threads asynchrones, events réseau limités, allocations minimisées. On publie les chiffres.</p>
+      </article>
+      <article class="method__item">
+        <span class="method__num">03</span>
+        <h3>Documenté sérieusement</h3>
+        <p>Config claire, exports typés, dépendances explicites. Doc en FR et EN, exemples fournis pour chaque intégration.</p>
+      </article>
+      <article class="method__item">
+        <span class="method__num">04</span>
+        <h3>Support opérationnel</h3>
+        <p>Canal Discord privé après achat. Réponse sous 24h ouvrées. Correctifs prioritaires si vous êtes bloqué en production.</p>
+      </article>
+      <article class="method__item">
+        <span class="method__num">05</span>
+        <h3>Updates à vie</h3>
+        <p>Un achat = toutes les futures versions. Compatibilité maintenue avec les artefacts FiveM récents.</p>
+      </article>
+      <article class="method__item">
+        <span class="method__num">06</span>
+        <h3>Anti-cheat friendly</h3>
+        <p>Contrôles serveur systématiques, aucun trigger sensible côté client. Compatible avec les AC courants.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="section">
+  <div class="wrap wrap--narrow">
+    <div class="section__head">
+      <span class="section__num">/ 04</span>
+      <h2>Questions<br /><em>fréquentes.</em></h2>
+    </div>
+
+    <div class="faq">
+      <details>
+        <summary><span>01</span>Comment se passe l'achat ?</summary>
+        <p>Redirection vers notre boutique Tebex. Paiement sécurisé (CB, PayPal, PaySafeCard). La ressource est liée à votre licence FiveM automatiquement.</p>
+      </details>
+      <details>
+        <summary><span>02</span>Puis-je utiliser sur plusieurs serveurs ?</summary>
+        <p>Non, une licence = un serveur. Nous délivrons des licences multi-serveurs sur demande, tarif adapté.</p>
+      </details>
+      <details>
+        <summary><span>03</span>Compatible QBCore et ESX ?</summary>
+        <p>La majorité des ressources supportent les deux frameworks. La compatibilité est indiquée sur chaque fiche produit.</p>
+      </details>
+      <details>
+        <summary><span>04</span>Les mises à jour sont-elles payantes ?</summary>
+        <p>Non. Toutes les futures versions sont incluses dans l'achat initial.</p>
+      </details>
+      <details>
+        <summary><span>05</span>Remboursement ?</summary>
+        <p>Produits numériques, non-remboursables. Support complet fourni si un problème technique bloque l'utilisation.</p>
+      </details>
+      <details>
+        <summary><span>06</span>Puis-je modifier le code ?</summary>
+        <p>Oui, pour votre propre serveur. Redistribution, revente ou partage sont interdits par les CGV.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap cta__row">
+    <div>
+      <span class="section__num">/ 05</span>
+      <h2>Un besoin<br /><em>spécifique ?</em></h2>
+    </div>
+    <div class="cta__side">
+      <p>Développement sur mesure disponible pour serveurs sérieux. Devis sous 48h.</p>
+      <a href="#" class="btn btn--lg" data-link-contact>Ouvrir un ticket<span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="#" class="mark">
+          <span class="mark__num">01</span>
+          <span class="mark__name"><span data-brand-left>NORTH</span><span class="mark__slash" data-brand-slash>/</span><span data-brand-right>STUDIO</span></span>
+        </a>
+        <p data-brand-tagline>Ressources FiveM — vendues via Tebex. Non affilié à Rockstar Games ni Cfx.re.</p>
+      </div>
+      <div class="footer__cols">
+        <div>
+          <h4>Boutique</h4>
+          <a href="#catalogue">Catalogue</a>
+          <a href="#">Nouveautés</a>
+          <a href="#">Promotions</a>
+        </div>
+        <div>
+          <h4>Studio</h4>
+          <a href="#work">Méthode</a>
+          <a href="#">Sur mesure</a>
+          <a href="#">Portfolio</a>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <a href="#" data-link-discord>Discord</a>
+          <a href="#" data-link-docs>Documentation</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div>
+          <h4>Légal</h4>
+          <a href="#" data-link-cgv>CGV</a>
+          <a href="#">Mentions</a>
+          <a href="#" data-link-contact>Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bot">
+      <span>© 2026 · <span data-brand-left>North</span> <span data-brand-right>Studio</span></span>
+      <span class="footer__ver">v.2026.01 — build stable</span>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

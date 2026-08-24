@@ -1,0 +1,10 @@
+{
+  "name": "tebex-site",
+  "version": "1.0.0",
+  "description": "Landing page FiveM",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}
